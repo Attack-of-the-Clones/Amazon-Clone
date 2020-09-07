@@ -14,8 +14,8 @@ Amazon clone with Clever Programmer
 
 - [x] Set-up REACT App using create-react-app
 - [x] Set-up Firebase
-- [ ] Clean-up
-- [ ] Set-up REACT Router
+- [x] Clean-up
+- [x] Set-up REACT Router
 - [ ] Build the nav bar (header)
 - [ ] Build the Banner
 - [ ] Build the Product component
@@ -40,3 +40,5 @@ const firebaseConfig = {
   measurementId: "G-8DW2XBQ03S",
 };
 ```
+
+> Use BEM Naming Convention
