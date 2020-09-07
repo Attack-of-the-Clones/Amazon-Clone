@@ -2,6 +2,7 @@ import "./App.css";
 
 import { Link, Route, BrowserRouter as Router, Switch } from "react-router-dom";
 
+import Header from "./Components/Header/Header";
 import React from "react";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           </Route>
           {/* This is the default route */}
           <Route path="/">
+            <Header />
             <h1>Home page!</h1>
           </Route>
         </Switch>
