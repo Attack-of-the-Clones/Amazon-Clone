@@ -16,8 +16,8 @@ Amazon clone with Clever Programmer
 - [x] Set-up Firebase
 - [x] Clean-up
 - [x] Set-up REACT Router
-- [ ] Build the nav bar (header)
-- [ ] Build the Banner
+- [x] Build the nav bar (header)
+- [x] Build the Banner
 - [ ] Build the Product component
 - [ ] Introduce React Context API (alternative to REDUX)
 - [ ] Set-up Add to Basket Button

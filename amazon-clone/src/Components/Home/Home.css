@@ -1,0 +1,26 @@
+.home__heroText {
+  color: white;
+}
+
+.home__hero h1 {
+  font-size: 30pt;
+  width: 45%;
+}
+
+.home__hero p {
+  margin-top: 20px;
+  font-size: 18pt;
+  width: 50%;
+}
+
+.home__hero {
+  display: flex;
+  flex-flow: nowrap;
+  align-items: center;
+  padding: 50px;
+  height: 410px;
+  background-color: #0000;
+  background-image: linear-gradient(to right, #000 40%, transparent 58%),
+    url("https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/MLP_ROW_Muti-title_Mag1._CB1564087979_._CR575,0,865,675_AC_.jpg");
+  background-position: right top;
+}
