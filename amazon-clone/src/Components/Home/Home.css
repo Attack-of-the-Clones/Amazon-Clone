@@ -23,4 +23,13 @@
   background-image: linear-gradient(to right, #000 40%, transparent 58%),
     url("https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/MLP_ROW_Muti-title_Mag1._CB1564087979_._CR575,0,865,675_AC_.jpg");
   background-position: right top;
+  margin-bottom: -90px;
+}
+
+.home__row {
+  display: flex;
+  z-index: -1;
+  margin-left: 5px;
+  margin-right: 5px;
+  justify-content: center;
 }
