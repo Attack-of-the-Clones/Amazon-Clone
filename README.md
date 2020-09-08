@@ -19,26 +19,11 @@ Amazon clone with Clever Programmer
 - [x] Build the nav bar (header)
 - [x] Build the Banner
 - [x] Build the Product component
-- [ ] Introduce React Context API (alternative to REDUX)
-- [ ] Set-up Add to Basket Button
+- [x] Introduce React Context API (alternative to REDUX)
+- [x] Set-up Add to Basket Button
 - [ ] Build Checkout page
 - [ ] Build Subtotal component
 - [ ] Build Login Page
 - [ ] Deploy the App LIVE on Firebase
-
-### Firbase Config
-
-```javascript
-const firebaseConfig = {
-  apiKey: "AIzaSyBwCK05Hel_DzdDaRGnZgwGvxQ7ze7M1fI",
-  authDomain: "clone-a2782.firebaseapp.com",
-  databaseURL: "https://clone-a2782.firebaseio.com",
-  projectId: "clone-a2782",
-  storageBucket: "clone-a2782.appspot.com",
-  messagingSenderId: "566259188165",
-  appId: "1:566259188165:web:b956f348052487bbe38bac",
-  measurementId: "G-8DW2XBQ03S",
-};
-```
 
 > Use BEM Naming Convention
