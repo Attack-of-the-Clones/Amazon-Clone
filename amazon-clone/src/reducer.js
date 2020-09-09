@@ -1,32 +1,10 @@
 export const initialState = {
-  basket: [
-    {
-      id: "5f583ea173952597c8e71d5f",
-      price: 56.72,
-      image:
-        "https://images-na.ssl-images-amazon.com/images/I/51ZIQxjxTxL._AC_US218_.jpg",
-      rating: 5,
-      title: "Sample Product Title 01",
-    },
-    {
-      id: "5f583ea16d82001b8f91c5b2",
-      price: 39.76,
-      image:
-        "https://images-na.ssl-images-amazon.com/images/I/51GTuVaUpdL._AC_US218_.jpg",
-      rating: 4,
-      title: "Sample Product Title 02",
-    },
-    {
-      id: "5f583ea15b67dd88db8e9b80",
-      price: 13.83,
-      image:
-        "https://images-na.ssl-images-amazon.com/images/I/513ttWDr7eL._AC_US218_.jpg",
-      rating: 5,
-      title: "Sample Product Title 03",
-    },
-  ],
+  basket: [],
   user: null,
 };
+
+export const getBasketTotal = (basket) =>
+  basket.reduce((amount, item) => item.price + amount, 0);
 
 const reducer = (state, action) => {
   // console.log(action);

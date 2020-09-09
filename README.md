@@ -22,7 +22,7 @@ Amazon clone with Clever Programmer
 - [x] Introduce React Context API (alternative to REDUX)
 - [x] Set-up Add to Basket Button
 - [x] Build Checkout page
-- [ ] Build Subtotal component
+- [x] Build Subtotal component
 - [ ] Build Login Page
 - [ ] Deploy the App LIVE on Firebase
 
