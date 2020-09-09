@@ -21,7 +21,7 @@ Amazon clone with Clever Programmer
 - [x] Build the Product component
 - [x] Introduce React Context API (alternative to REDUX)
 - [x] Set-up Add to Basket Button
-- [ ] Build Checkout page
+- [x] Build Checkout page
 - [ ] Build Subtotal component
 - [ ] Build Login Page
 - [ ] Deploy the App LIVE on Firebase

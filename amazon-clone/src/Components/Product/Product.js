@@ -27,16 +27,9 @@ function Product({ id, title, image, price, rating }) {
           <small>USD</small>
           <strong>{price}</strong>
         </p>
-        <Rating
-          className="product__rating"
-          name="star-rating"
-          value={rating}
-          precision={0.5}
-        />
+        <Rating name="star-rating" value={rating} precision={0.5} />
       </div>
-      <div className="product_image">
-        <img src={image} alt="" />
-      </div>
+      <img src={image} alt="" className="product__image" />
       <button onClick={addToBasket}>Add to Basket</button>
     </div>
   );

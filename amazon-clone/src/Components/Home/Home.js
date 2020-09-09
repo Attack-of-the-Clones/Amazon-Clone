@@ -18,50 +18,64 @@ function Home() {
       {/* Product id, title, price, rating, image */}
       <div className="home__row">
         <Product
-          id="1234561"
-          title="The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses"
-          price={11.96}
-          rating={3.5}
-          image="https://images-na.ssl-images-amazon.com/images/I/51T-sMqSMiL._SX329_BO1,204,203,200_.jpg"
+          id="12321341"
+          title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"
+          price={60.99}
+          rating={5}
+          image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg"
         />
         <Product
-          id="1234562"
-          title="Lean Mastery Collection: 8 Manuscripts: Lean Six Sigma, Lean Startup, Lean Enterprise, Lean Analytics, Agile Project Management, Kanban, Scrum, Kaizen"
-          price={24.95}
-          rating={4.5}
-          image="https://m.media-amazon.com/images/I/51i82i9ms3L.jpg"
-        />
-      </div>
-      <div className="home__row">
-        <Product
-          id="1234563"
-          title="UX for Lean Startups: Faster, Smarter User Experience Research and Design"
-          price={19.89}
-          rating={4.5}
-          image="https://m.media-amazon.com/images/I/61S2hTYDSYL._AC_UY218_.jpg"
+          id="89893333"
+          title="Fitbit Charge 4 With Built-in GPS"
+          price={150.99}
+          rating={4}
+          image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
         />
         <Product
-          id="1234564"
-          title="AmazonBasics 8-Sheet Capacity, Cross-Cut Paper and Credit Card Shredder, 4.1 Gallon"
-          price={40.99}
-          rating={4.5}
-          image="https://m.media-amazon.com/images/I/71K7Q4FpguL._AC_UY218_.jpg"
-        />
-        <Product
-          id="1234565"
-          title="Acer Aspire 5 Slim Laptop, 15.6 inches Full HD IPS Display"
-          price={519.99}
-          rating={4.5}
-          image="https://images-na.ssl-images-amazon.com/images/I/71vvXGmdKWL._AC_SL1500_.jpg"
+          id="92326678"
+          title="LG 108 cm (43 inches) 4K UHD Smart LED TV 43UM7290PTF (Ceramic Black) (2019 Model)"
+          price={1000.99}
+          rating={5}
+          image="https://images-na.ssl-images-amazon.com/images/I/912Mfy9s3GL._SL1500_.jpg"
         />
       </div>
       <div className="home__row">
         <Product
-          id="1234566"
-          title="Seagate Portable 2TB External Hard Drive Portable HDD – USB 3.0 for PC, Mac, PS4, & Xbox (STGX2000400)"
-          price={121.99}
-          rating={3.5}
-          image="https://images-na.ssl-images-amazon.com/images/I/81R8OM9pGLL._AC_SL1500_.jpg"
+          id="67893426"
+          title="Apple iPhone 11 Pro Max (64GB) - Midnight Green"
+          price={1171.99}
+          rating={5}
+          image="https://m.media-amazon.com/images/I/61ers6OzvUL._AC_UY218_.jpg"
+        />
+        <Product
+          id="73282018"
+          title="Amazon Echo (3rd Gen) – Improved sound, powered by Dolby (Black)"
+          price={97.49}
+          rating={4}
+          image="https://m.media-amazon.com/images/I/7128HRanJgL._AC_UY218_.jpg"
+        />
+        <Product
+          id="23281018"
+          title="New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)"
+          price={420.99}
+          rating={5}
+          image="https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
+        />
+      </div>
+      <div className="home__row">
+        <Product
+          id="32949249"
+          title="Samsung S19F350HNW 18.5-inch AH IPS LED Monitor (Black) (Not A TV)"
+          price={55.99}
+          rating={4}
+          image="https://m.media-amazon.com/images/I/81JNAFOB3lL._AC_UY218_.jpg"
+        />
+        <Product
+          id="32729109"
+          title="HP 14 10th Gen Intel Core i5 Processor 14-inch Laptop (i5-1035G1/8GB/1TB HDD + 256GB SSD/Win 10 Home/MS Office/Natural Silver ),14s cs3009TU"
+          price={55.99}
+          rating={4}
+          image="https://m.media-amazon.com/images/I/71QmFal-QfL._AC_UY218_.jpg"
         />
       </div>
       {/* Product */}
