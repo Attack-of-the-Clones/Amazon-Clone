@@ -23,7 +23,7 @@ Amazon clone with Clever Programmer
 - [x] Set-up Add to Basket Button
 - [x] Build Checkout page
 - [x] Build Subtotal component
-- [ ] Build Login Page
+- [x] Build Login Page
 - [ ] Deploy the App LIVE on Firebase
 
 > Use BEM Naming Convention
