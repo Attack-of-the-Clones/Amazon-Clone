@@ -24,6 +24,6 @@ Amazon clone with Clever Programmer
 - [x] Build Checkout page
 - [x] Build Subtotal component
 - [x] Build Login Page
-- [ ] Deploy the App LIVE on Firebase
+- [x] Deploy the App LIVE on Firebase
 
 > Use BEM Naming Convention
